@@ -1,0 +1,62 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Hamid._.Haghshenas\\Desktop\\asp.netCore_part4\\Parniyan\\Parniyan.Mobile\\Parniyan.Mobile.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Hamid._.Haghshenas\\Desktop\\asp.netCore_part4\\Parniyan\\Parniyan.Mobile\\Parniyan.Mobile.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Hamid._.Haghshenas\\Desktop\\asp.netCore_part4\\Parniyan\\Parniyan.Mobile\\Parniyan.Mobile.csproj",
+        "projectName": "Parniyan.Mobile",
+        "projectPath": "C:\\Users\\Hamid._.Haghshenas\\Desktop\\asp.netCore_part4\\Parniyan\\Parniyan.Mobile\\Parniyan.Mobile.csproj",
+        "packagesPath": "C:\\Users\\Hamid._.Haghshenas\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Hamid._.Haghshenas\\Desktop\\asp.netCore_part4\\Parniyan\\Parniyan.Mobile\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\ProgramData\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Hamid._.Haghshenas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

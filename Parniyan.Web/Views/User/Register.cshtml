@@ -1,0 +1,43 @@
+﻿@model Parniyan.Core.ViewModels.RegisterViewModel
+@{
+    ViewData["Title"] = "Register";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="form-popup">
+    <!-- CLOSE BTN -->
+    <div class="close-btn">
+        <!-- SVG PLUS -->
+        <svg class="svg-plus">
+            <use xlink:href="#svg-plus"></use>
+        </svg>
+        <!-- /SVG PLUS -->
+    </div>
+    <!-- /CLOSE BTN -->
+
+    <!-- FORM POPUP HEADLINE -->
+    <div class="form-popup-headline primary">
+        <h2>ثبت نام</h2>
+        <p>شروع ثبت نام </p>
+    </div>
+    <!-- /FORM POPUP HEADLINE -->
+
+    <!-- FORM POPUP CONTENT -->
+    <div class="form-popup-content">
+        <form id="register-form4" method="post" asp-action="Register">
+            <label for="email_address6" class="rl-label required">آدرس ایمیل</label>
+
+            <input type="text" id="email_address6" name="email_address6" placeholder="آدرس ایمیل خود را وارد کنید..." asp-for="Email"/>
+
+            <label for="username6" class="rl-label">نام کاربری</label>
+            <input type="text" id="username6" name="username6" placeholder="نام کاربری خود را وارد کنید..." asp-for="FirstName">
+            <label for="password6" class="rl-label required">گذرواژه</label>
+            <input type="text" id="password6" name="password6" placeholder="گذرواژه خود را وارد کنید..." asp-for="Password">
+            <label for="repeat_password6" class="rl-label required">تکرار گذرواژه</label>
+            <input type="text" id="repeat_password6" name="repeat_password6" placeholder="تکرار گذرواژه..." asp-for="RePassword">
+            <button class="button mid dark">ثبت نام <span class="primary">هم اکنون!</span></button>
+        </form>
+    </div>
+    <!-- /FORM POPUP CONTENT -->
+</div>
+
