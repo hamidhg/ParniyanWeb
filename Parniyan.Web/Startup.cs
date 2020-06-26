@@ -51,7 +51,7 @@ namespace Parniyan.Web
 
             app.UseMvcWithDefaultRoute();
             app.UseStaticFiles();
-            app.UseAuthentication();
+    
             app.Run(async (context) =>
             {
                 await context.Response.WriteAsync("Hello World!");
